@@ -1,0 +1,27 @@
+h1 {
+    color:red;
+}
+ .photos img {
+    width: 100%;
+}
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.photo img {
+    width: 100%;
+}
+.photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: red;
+    font-size: .9rem
+  }
+  
+  
